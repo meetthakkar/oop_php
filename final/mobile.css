@@ -1,0 +1,184 @@
+/*-----------------------------MOBILE DEVICES---------------------------*/
+
+        @media screen and (min-width: 270px) and (max-width: 819px)
+        {
+
+            /*------------MENU-----------*/
+
+            #logo_menu{
+                display: none;
+            }
+
+            #right_menu{
+                display: none;
+            }
+
+            /*----------END OF MENU--------*/  
+
+            /*-----------HEADER AND FOOTER CONFIG--------*/
+
+            .start{
+                font-family: Impact;
+                font-size: 23px;
+            }
+
+            .end{
+                font-family: Avenir;
+                font-size: 17px;
+            } 
+
+            /*--------END OF HEADER AND FOOTER CONFIG----*/          
+
+            /*----------ABOUT PARA----------*/
+
+            .about_pic 
+            {
+                margin-top: -50px;
+            }
+
+            .about_para
+            {
+                width: 260px;
+                padding-left: 20px;
+               
+            }
+
+            /*-----END OF EDIT PARA-ABOUT---*/  
+
+            /*----------STORY PARA----------*/
+
+        
+            .story_para
+            {
+                width: 260px;
+                
+            }
+
+            /*-----END OF EDIT PARA-STORY---*/   
+
+            /*----------PAY PARA----------*/
+
+            #pay{
+                padding-bottom: 50px;
+            }
+        
+            .pay_story
+            {
+                width: 260px;
+            }
+
+            /*-----END OF EDIT PARA-PAY---*/  
+
+            /*------------SOCIAL MEDIA ICONS--------*/
+
+
+            .button5 {
+                background-color: white;
+                color: black;
+                border: 2px solid #555555;
+                padding: 5px 10px; 
+                font-size: 10px;
+            }
+
+            .button5:hover {
+                background-color: black;
+                color: white;
+            }
+
+           ul.social-network {
+                list-style: none;
+                display: inline;
+                margin-left:0 !important;
+                padding-top: 10;
+            }
+
+            ul.social-network li {
+                display: inline;
+                margin: 0 20px;
+            }
+
+            .icons-sm{
+                font-size: 15px;
+                color: black;
+            }           
+
+            /*---------END OF SOCIAL MEDIA ICONS------*/
+
+            .footer_style{
+                padding-top: 20px;
+            }
+
+            .footer_one{
+                padding-top: 5px;
+                padding-bottom: 5px;
+                
+            }
+
+            .footer_two{
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            .footer_three{
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 50px;
+
+            }
+
+            .footer_text{
+                font-family: Impact;
+                font-size: 16px;
+            }
+
+            #mobile_footer{
+                padding-left: 35px;
+            }
+        }
+
+
+        /*---------------------------END OF MOBILE DEVICES----------------------*/
+
+        /*-------------------------------SOCIAL MEDIA---------------------------*/
+
+        .social-icon {
+            color: black;
+        }
+
+        .social-icons a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .button5 {
+            background-color: white;
+            color: black;
+            border: 2px solid #555555;
+
+        }
+
+        .button5:hover {
+            background-color: black;
+            color: white;
+        }
+
+       ul.social-network {
+            list-style: none;
+            display: inline;
+            margin-left:0 !important;
+            padding-top: 10;
+        }
+
+        ul.social-network li {
+            display: inline;
+            margin: 5 10px;
+        }
+
+        #nl_button{
+            padding-left: 30px;
+        }
+
+        /*-------------------------END OF SOCIAL MEDIA--------------------------*/
+}
+
+

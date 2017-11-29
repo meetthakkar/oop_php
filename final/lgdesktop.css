@@ -1,0 +1,165 @@
+@media screen and (min-width: 1601px) and (max-width: 1950px)
+{
+    
+    /*-----------HEADER AND FOOTER CONFIG--------*/
+
+    .start{
+        font-family: Impact;
+        font-size: 28px;
+    }
+
+    .end{
+        font-family: Avenir;
+        font-size: 21px;
+    } 
+
+    /*--------END OF HEADER AND FOOTER CONFIG----*/ 
+
+
+    /*------------MENU-----------*/
+
+    #left_menu{
+        display: none;
+    }
+
+    /*----------END OF MENU--------*/
+
+    .navbar{
+        height: 100px;
+    }
+
+    /*----------ABOUT PARA----------*/
+
+    .about_pic 
+    {
+        margin-top: -50px;
+    }
+
+    .about_para
+    {
+        padding-top: 100px;
+        
+    }
+
+    /*-----END OF EDIT PARA-ABOUT---*/
+
+    /*----------STORY PARA----------*/
+
+    .story_gap{
+        padding-top: 80px;
+    }
+
+    .story_para
+    {
+        padding-top: 100px;
+        padding-left: 200px;
+        width: 700px;              
+        
+    }
+
+    /*-----END OF EDIT PARA-STORY---*/
+
+    .tleft{
+        padding-left: 180px;
+        padding-top: 25px;
+        font-family: Impact;
+        font-size: 30px;
+    }
+
+    .tleft li{
+        padding-right: 200px;
+    }
+
+    .tright{
+        padding-right: 80px;
+        padding-top: 25px;
+        font-family: Impact;
+        font-size: 30px;
+    }
+
+    .tright li{
+        padding-right: 80px;
+        padding-left: 110px;
+    }
+
+    /*-------------------------------SOCIAL MEDIA---------------------------*/
+
+    .social-icon {
+        color: black;
+    }
+
+    .social-icons a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .button5 {
+        background-color: white;
+        color: black;
+        border: 2px solid #555555;
+
+    }
+
+    .button5:hover {
+        background-color: black;
+        color: white;
+    }
+
+   ul.social-network {
+        list-style: none;
+        display: inline;
+        margin-left:0 !important;
+        padding-top: 10;
+    }
+
+    ul.social-network li {
+        display: inline;
+        margin: 0 20px;
+    }
+
+    .icons-sm{
+        font-size: 20px;
+        color: black;
+    }     
+
+    .social-network li br{
+        display: none;
+    }      
+
+    /*--------- About Phone--------*/
+
+    #about_phone{
+        display: none;
+    }
+    /*-------- End of About ------- */
+
+    /*---------END OF SOCIAL MEDIA ICONS------*/
+
+    .footer_style{
+        padding-top: 20px;
+    }
+
+    .footer_one{
+        
+    }
+
+    .footer_two{
+        
+    }
+
+    .footer_three{
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .footer_three br{
+        display: none;
+    }
+
+    .footer_text{
+        font-family: Impact;
+        font-size: 21px;
+    }
+
+/*-------------------------END OF SOCIAL MEDIA--------------------------*/
+}

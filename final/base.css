@@ -1,0 +1,126 @@
+/*--
+	Universal selector and psuedo selectors for inserting content before or after any element.
+	1. Use border-box over default content-box for box model.	
+--*/
+*, *:before, *:after{
+	-moz-box-sizing:border-box;			/*1*/
+	-webkit-box-sizing:border-box;		/*1*/
+	box-sizing:border-box;				/*1*/
+}
+/*--
+	1. 16px
+	2. 1.6 x font-size
+--*/
+/*html, body{
+	background:#c9c9c9;
+	height:100%;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:1em;			/*1*/
+	line-height:1.6; 		/*2*/
+}
+/*--
+Page wrapper 
+	1. 1200px / 16px;
+--*/
+/*#page-container{
+	background:#ec5e0c;
+	height:100%;
+	max-width:75em;			/*1*/
+	/*padding:.25em 1em;
+	overflow:auto;
+}
+/*--
+	1. 28px;
+--*/
+h1 {
+	font-size:1.75em;		/*1*/
+}
+/*--
+	Centering content containers
+--*/
+/*.center-container{
+	margin-left:auto;
+	margin-right:auto;
+}
+/*--
+	Centering page container
+--*/
+.center-text{
+	text-align:center;
+}
+/*--
+	1. 400px / 16px;
+--*/
+/*.form-container{
+	background:#fff;
+	border:solid #000 2px;
+	max-width:25em;			/*1*/
+	/*padding:.1em 1em;
+}*/
+/*--
+	Container for the checkout button
+--*/
+#checkout-btn-container{
+	display:none;
+}
+/*--
+	Checkout loading message container
+--*/
+#checkout-loading-message{
+	display:block;
+}
+/*--
+	Form message containers
+--*/
+.checkout-message{
+	display:none;
+	font-weight:bold;
+}
+/*--
+	Text style for error messages
+--*/
+.error-message-text{
+	color:#f00;
+}
+/*--
+	http://www.bestcssbuttongenerator.com
+--*/
+.pay-btn{
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.pay-btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.pay-btn:active{
+	
+}
